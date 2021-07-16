@@ -69,6 +69,3 @@ touch <file name>
 rm <file name>
 ```
 
-
-
-##### 
