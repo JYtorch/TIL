@@ -1,7 +1,5 @@
 # Code
 
-
-
 ```python
 n = int(input())
 while n > 0:
@@ -89,5 +87,44 @@ for i in range(1, number + 1):
     for j in range(1, i + 1):
         print(j, end = '')
     print()
+```
+
+
+
+```python
+# list를 형변환 해봅시다.  l = [1, 2, 3, 4]
+str(l)
+tuple(l)
+set(l)
+# range(l)
+# dict(l)
+
+# tuple을 형변환 해봅시다.  t = (1, 2, 3, 4)
+str(t)
+list(t)
+set(t)
+# range(t)
+# dict(t)
+
+# range를 형변환 해봅시다.  r = range(1, 5)
+str(r)
+list(r)
+set(r)
+tuple(r)
+# dict(r)
+
+# set을 형변환 해봅시다.  s = {1, 2, 3, 4}
+str(s)
+list(s)
+tuple(s)
+# range(s)
+# dict(s)
+
+# dictionary를 형변환 해봅시다.  d = {'name': 'ssafy', 'year': 2020}
+str(d)
+list(d)
+tuple(d)
+set(d)
+# range(d)
 ```
 
