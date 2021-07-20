@@ -133,5 +133,47 @@ $
 
 --------------------------------------------------
 
+user@DESKTOP-F4VHJPH MINGW64 ~/TIL (master)
+$ cd git/
 
+user@DESKTOP-F4VHJPH MINGW64 ~/TIL/git (master)
+$ cd ..
+
+user@DESKTOP-F4VHJPH MINGW64 ~/TIL (master)
+$
+
+user@DESKTOP-F4VHJPH MINGW64 ~/TIL (master)
+$ git add .
+
+user@DESKTOP-F4VHJPH MINGW64 ~/TIL (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        new file:   git/command.md
+        modified:   linux/command.md
+
+
+user@DESKTOP-F4VHJPH MINGW64 ~/TIL (master)
+$ git commit -m "add git/command.md"
+[master 72549c4] add git/command.md
+ 3 files changed, 220 insertions(+), 3 deletions(-)
+ create mode 100644 git/command.md
+
+user@DESKTOP-F4VHJPH MINGW64 ~/TIL (master)
+$ git push origin master
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 1.90 KiB | 486.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/JYtorch/TIL.git
+   0122588..72549c4  master -> master
+
+-----------
+
+`request.get(url) `  크롬에서 url주소를 입력하는 것과 같은 효과
 
